@@ -17,6 +17,7 @@ var config = {
           include : APP_DIR,
             loader: 'babel-loader',
             query: {
+                cacheDirectory: true,
                 presets: ['react', 'es2015']
             }
           }
